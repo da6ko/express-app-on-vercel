@@ -47,7 +47,7 @@ app.post('/saveData', (req, res) => {
 
 // Route handler for the root URL
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+   res.send("Express on dashko");
 });
 
 // Start the server
